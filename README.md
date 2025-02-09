@@ -33,11 +33,13 @@ date - The publication date.
 
 label - A binary value (0 = Fake, 1 = True).
 
+The dataset contains two types of articles: Fake News and Real News. This dataset was collected from real-world sources; the truthful articles were obtained by crawling articles from Reuters.com (a well-known news website). The fake news articles were collected from unreliable websites that were flagged by Politifact (a fact-checking organization in the USA) and Wikipedia. The dataset contains different types of articles on different topics; however, the majority of articles focus on political and world news topics.
+
 # Installation
 
 1. Clone the Repository
 
-git clone https://github.com/your-username/fake-news-detector.git
+git clone
 cd fake-news-detector
 
 2. Install Dependencies
@@ -73,6 +75,10 @@ Model Performance
 Accuracy: ~93%
 
 Evaluation: Model performance is visualized using a confusion matrix and classification report.
+
+# Testing Fake News Link
+
+Example of a fake news fact-check: Denzel Washington Supports Trump? (False)
 
 # Future Improvements
 
