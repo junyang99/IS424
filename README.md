@@ -44,9 +44,7 @@ cd fake-news-detector
 
 2. Install Dependencies
 
-Make sure you have Python installed, then install the required packages:
-
-pip install -r requirements.txt
+Make sure you have Python installed, then install the required packages: streamlit, pandas, tensorflow, wordcloud, numpy, matplotlib, pickle, scikit-learn etc
 
 3. Train the Model (if not already trained)
 
@@ -54,7 +52,7 @@ Run the Jupyter Notebook to train and save the model:
 
 jupyter notebook eda.ipynb
 
-This will generate model.pkl and vectorizer.pkl.
+This will generate multinomialnb.pkl and vectorizer.pkl.
 
 4. Run the Streamlit App
 
